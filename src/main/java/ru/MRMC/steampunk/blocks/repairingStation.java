@@ -20,7 +20,7 @@ public class repairingStation extends Block
         this.setCreativeTab(creativeTabs.SPA_TAB);
         this.setBlockTextureName(reference.MOD_ID.toLowerCase() + ":" + name);
         tileRepairingStation();
-        logHandler.info("Block " + reference.MOD_ID + ":" + name);
+        logHandler.debug("Block " + reference.MOD_ID + ":" + name + " as " + this.getUnlocalizedName());
     }
     private TileEntity tileRepairingStation(/*World world, int meta*/)
     {

@@ -5,7 +5,7 @@ import net.minecraft.item.Item;
 
 public class creativeTabs
 {
-   public static final CreativeTabs SPA_TAB = new CreativeTabs(reference.MOD_ID.toLowerCase())
+   public static final CreativeTabs SPA_TAB = new CreativeTabs(reference.MOD_NAME)
    {
        @Override
        public Item getTabIconItem()

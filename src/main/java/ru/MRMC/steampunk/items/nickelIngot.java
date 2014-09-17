@@ -13,6 +13,6 @@ public class nickelIngot extends Item
         this.setCreativeTab(creativeTabs.SPA_TAB);
         this.setUnlocalizedName(name);
         this.setTextureName(reference.MOD_ID.toLowerCase() + ":" + name);
-        logHandler.info("Item " + reference.MOD_ID + ":" + name);
+        logHandler.debug("Item " + reference.MOD_ID + ":" + name + " as " + this.getUnlocalizedName());
     }
 }

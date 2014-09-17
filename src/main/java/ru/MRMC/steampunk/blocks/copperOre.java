@@ -18,7 +18,7 @@ public class copperOre extends Block
         this.setResistance(5F);
         this.setHarvestLevel("pickaxe", 1);
         this.setBlockTextureName(reference.MOD_ID.toLowerCase() + ":" + name);
-        logHandler.info("Block " + reference.MOD_ID + ":" + name);
+        logHandler.debug("Block " + reference.MOD_ID + ":" + name + " as " + this.getUnlocalizedName());
     }
 
 }

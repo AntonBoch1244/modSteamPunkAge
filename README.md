@@ -1,3 +1,3 @@
-###modSteamPunkAge
+modSteamPunkAge
 =================
-![Build Status](https://travis-ci.org/Alekc15/Steampunk-Age-Mod.svg?branch=master) master-latest
+[![Build Status](https://travis-ci.org/MinecraftRussianModdingCommunity/modSteamPunkAge.svg)] master-latest

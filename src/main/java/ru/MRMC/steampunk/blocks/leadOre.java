@@ -1,5 +1,6 @@
 package ru.MRMC.steampunk.blocks;
 
+import net.minecraftforge.oredict.OreDictionary;
 import ru.MRMC.steampunk.handlers.logHandler;
 import ru.MRMC.steampunk.registry.creativeTabs;
 import ru.MRMC.steampunk.registry.reference;
@@ -18,6 +19,7 @@ public class leadOre extends Block
         this.setResistance(5F);
         this.setHarvestLevel("pickaxe", 1);
         this.setBlockTextureName(reference.MOD_ID.toLowerCase() + ":" + name);
+        OreDictionary.getOreID(name);
         logHandler.debug("Block " + reference.MOD_ID + ":" + name + " as " + this.getUnlocalizedName());
     }
 }

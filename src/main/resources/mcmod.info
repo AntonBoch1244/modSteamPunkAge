@@ -1,16 +1,24 @@
 [
-{
-  "modid": "steampunk",
-  "name": "Steampunk Age Mod",
-  "description": "",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["Alekc15"],
-  "credits": "",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
-}
+  {
+    "modid": "steampunk",
+    "name": "Steampunk Age Mod",
+    "description": "",
+    "version": "${version}:ALPHA",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Alekc15",
+      "AntonAlekseevich",
+      "maksim789456"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [
+      
+    ],
+    "dependencies": [
+      
+    ]
+  }
 ]

@@ -12,19 +12,19 @@ public class steampunk
     @Mod.EventHandler
     public void preLoad(FMLPreInitializationEvent event)
     {
-        logHandler.info("["+ reference.MOD_ID + "]" + "Starting Pre-Initializing.");
-        logHandler.info(reference.MOD_NAME + " " + reference.MOD_VERSION);
+        logHandler.trace("["+ reference.MOD_ID + "]" + "Starting Pre-Initializing.");
+        logHandler.trace(reference.MOD_NAME + " " + reference.MOD_VERSION);
         tileEntitys.register();
-        logHandler.info("Tiles Loaded!");
+        logHandler.trace("Tiles Loaded!");
         blocks.register();
-        logHandler.info("Blocks Loaded!");
+        logHandler.trace("Blocks Loaded!");
         items.register();
-        logHandler.info("Items Loaded!");
+        logHandler.trace("Items Loaded!");
         crafts.register();
-        logHandler.info("Crafts Loaded!");
+        logHandler.trace("Crafts Loaded!");
         generators.register();
-        logHandler.info("Ore Generation Loaded!");
-        logHandler.info("[" + reference.MOD_ID + "]" + "Pre-Initializing complete.");
+        logHandler.trace("Ore Generation Loaded!");
+        logHandler.trace("[" + reference.MOD_ID + "]" + "Pre-Initializing complete.");
     }
 
 }

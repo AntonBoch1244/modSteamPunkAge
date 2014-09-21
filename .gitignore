@@ -1,14 +1,7 @@
 .gradle
 .idea
-eclipse
 out
 run
-building*
-dow*
-*.txt
 *.iml
 *.ipr
 *.iws
-
-Steampunk-Age-Mod.todo
-src/a-pi

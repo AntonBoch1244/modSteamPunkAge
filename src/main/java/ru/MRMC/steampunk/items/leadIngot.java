@@ -13,8 +13,9 @@ public class leadIngot extends Item
     {
         this.setCreativeTab(creativeTabs.SPA_TAB);
         this.setUnlocalizedName(name);
-        this.setTextureName(reference.MOD_ID.toLowerCase() + ":" + name);
+        this.setTextureName(reference.MOD_ID + ":" +name);
         OreDictionary.getOreID(name);
+        this.setUnlocalizedName(reference.MOD_ID + reference.SEPARATOR + name);
         logHandler.debug("Item " + reference.MOD_ID + ":" + name + " as " + this.getUnlocalizedName());
     }
 }

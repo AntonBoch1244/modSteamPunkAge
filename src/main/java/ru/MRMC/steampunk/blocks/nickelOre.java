@@ -19,7 +19,8 @@ public class nickelOre extends Block
         this.setHardness(3F);
         this.setResistance(5F);
         this.setHarvestLevel("pickaxe", 2);
-        this.setBlockTextureName(reference.MOD_ID.toLowerCase() + ":" + name);
+        this.setBlockTextureName(reference.MOD_ID + ":" + name);
+        this.setBlockName(reference.MOD_ID + reference.SEPARATOR + name);
         OreDictionary.getOreID(name);
         logHandler.debug("Block " + reference.MOD_ID + ":" + name + " as " + this.getUnlocalizedName());
     }

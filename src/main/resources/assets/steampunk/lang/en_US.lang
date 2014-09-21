@@ -1,15 +1,15 @@
 #Creative Tabs
 itemGroup.steampunk=SteamPunk Age
 #Blocks
-tile.copperOre.name=Copper Ore
-tile.leadOre.name=Lead Ore
-tile.nickelOre.name=Nickel Ore
-tile.tinOre.name=Tin Ore
-tile.zincOre.name=Zinc Ore
+tile.steampunk.copperOre=Copper Ore
+tile.steampunk.leadOre=Lead Ore
+tile.steampunk.nickelOre=Nickel Ore
+tile.steampunk.tinOre=Tin Ore
+tile.steampunk.zincOre=Zinc Ore
 #Items
-item.copperIngot.name=Copper Ingot
-item.leadIngot.name=Lead Ingot
-item.nickelIngot.name=Nickel Ingot
-item.brassIngot.name=Brass Ingot
-item.tinIngot.name=Tin Ingot
-item.zincIngot.name=Zinc Ingot
+item.steampunk.copperIngot=Copper Ingot
+item.steampunk.leadIngot=Lead Ingot
+item.steampunk.nickelIngot=Nickel Ingot
+item.steampunk.brassIngot=Brass Ingot
+item.steampunk.tinIngot=Tin Ingot
+item.steampunk.zincIngot=Zinc Ingot

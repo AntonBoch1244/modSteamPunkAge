@@ -4,8 +4,9 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
+import ru.MRMC.steampunk.blocks.repairingStation;
 
-public class repairingStation extends TileEntity implements IInventory
+public class tileRepairingStation extends TileEntity implements IInventory
 {
     @Override
     public int getSizeInventory() {
@@ -34,7 +35,7 @@ public class repairingStation extends TileEntity implements IInventory
 
     @Override
     public String getInventoryName() {
-        return "Repairing Station";
+        return repairingStation.l10nName;
     }
 
     @Override

@@ -10,6 +10,7 @@ import net.minecraft.tileentity.TileEntity;
 
 public class repairingStation extends Block
 {
+    public static String l10nName;
     public String name = "repairingStation";
     public repairingStation()
     {
@@ -18,7 +19,8 @@ public class repairingStation extends Block
         this.setResistance(0F);
         this.setHardness(0F);
         this.setCreativeTab(creativeTabs.SPA_TAB);
-        this.setBlockTextureName(reference.MOD_ID.toLowerCase() + ":" + name);
+        this.setBlockTextureName(reference.MOD_ID + ":" + name);
+        this.setBlockName(reference.MOD_ID + reference.SEPARATOR + name);
         tileRepairingStation();
         logHandler.debug("Block " + reference.MOD_ID + ":" + name + " as " + this.getUnlocalizedName());
     }

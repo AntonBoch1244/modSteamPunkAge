@@ -1,15 +1,15 @@
-#Creative Tabs
+#Креативые вкладки
 itemGroup.steampunk=Паровой Век
-#Blocks
-tile.copperOre.name=Медная Руда
-tile.leadOre.name=Свинцовая Руда
-tile.nickelOre.name=Никелевая Руда
-tile.tinOre.name=Оловянная Руда
-tile.zincOre.name=Цинковая Руда
-#Items
-item.copperIngot.name=Медный Слиток
-item.leadIngot.name=Свинцовый Слиток
-item.nickelIngot.name=Никелевый Слиток
-item.brassIngot.name=Латунный Слиток
-item.tinIngot.name=Оловянный Слиток
-item.zincIngot.name=Цинковый Слиток
+#Блоки
+tile.steampunk.copperOre=Медная Руда
+tile.steampunk.leadOre=Свинцовая Руда
+tile.steampunk.nickelOre=Никелевая Руда
+tile.steampunk.tinOre=Оловянная Руда
+tile.steampunk.zincOre=Цинковая Руда
+#Предметы
+item.steampunk.copperIngot=Медный Слиток
+item.steampunk.leadIngot=Свинцовый Слиток
+item.steampunk.nickelIngot=Никелевый Слиток
+item.steampunk.brassIngot=Латунный Слиток
+item.steampunk.tinIngot=Оловянный Слиток
+item.steampunk.zincIngot=Цинковый Слиток

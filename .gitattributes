@@ -1,0 +1,5 @@
+# AutoDetection text files getting ready to LF normalization [FROM CRLF]
+* text=auto
+# This files converting from CRLF to LF
+*.java text
+*.txt text

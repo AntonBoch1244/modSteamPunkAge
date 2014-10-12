@@ -22,7 +22,7 @@ group= "ru.MRMC.steampunk" // http://maven.apache.org/guides/mini/guide-naming-c
 archivesBaseName = "steampunk"
 
 minecraft {
-    version = "1.7.10-10.13.1.1217"
+    version = "1.7.10-10.13.1.1225"
     runDir = "run"
 }
 

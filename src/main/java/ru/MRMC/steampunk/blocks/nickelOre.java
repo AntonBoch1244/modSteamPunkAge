@@ -1,16 +1,15 @@
 package ru.MRMC.steampunk.blocks;
 
-import net.minecraftforge.oredict.OreDictionary;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
 import ru.MRMC.steampunk.handlers.logHandler;
 import ru.MRMC.steampunk.registry.creativeTabs;
 import ru.MRMC.steampunk.registry.reference;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 
 public class nickelOre extends Block
 {
 
-    public String name = "nickelOre";
+    public static String name = "nickelOre";
     public nickelOre()
     {
         super(Material.rock);
@@ -21,7 +20,6 @@ public class nickelOre extends Block
         this.setHarvestLevel("pickaxe", 2);
         this.setBlockTextureName(reference.MOD_ID + ":" + name);
         this.setBlockName(reference.MOD_ID + reference.SEPARATOR + name);
-        OreDictionary.getOreID(name);
         logHandler.debug("Block " + reference.MOD_ID + ":" + name + " as " + this.getUnlocalizedName());
     }
 

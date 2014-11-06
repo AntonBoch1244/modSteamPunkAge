@@ -20,6 +20,8 @@ public class steampunk
         logHandler.trace("Blocks Loaded!");
         items.register();
         logHandler.trace("Items Loaded!");
+        oreDictionary.register();
+        logHandler.trace("Ore Integration Loaded!");
         crafts.register();
         logHandler.trace("Crafts Loaded!");
         generators.register();

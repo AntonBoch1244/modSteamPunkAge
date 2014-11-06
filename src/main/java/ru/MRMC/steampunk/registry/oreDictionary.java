@@ -6,20 +6,20 @@ public class oreDictionary
 {
     static void registerOres()
     {
-        OreDictionary.registerOre("copperOre", blocks.copperOre);
-        OreDictionary.registerOre("leadOre", blocks.leadOre);
-        OreDictionary.registerOre("nickelOre", blocks.leadOre);
-        OreDictionary.registerOre("tinOre", blocks.leadOre);
-        OreDictionary.registerOre("zincOre", blocks.zincOre);
+        OreDictionary.registerOre("oreCopper", blocks.copperOre);
+        OreDictionary.registerOre("oreLead", blocks.leadOre);
+        OreDictionary.registerOre("oreNickel", blocks.leadOre);
+        OreDictionary.registerOre("oreTin", blocks.leadOre);
+        OreDictionary.registerOre("oreZinc", blocks.zincOre);
     }
     static void registerItems()
     {
-        OreDictionary.registerOre("brassIngot", items.brassIngot);
-        OreDictionary.registerOre("copperIngot", items.copperIngot);
-        OreDictionary.registerOre("leadIngot", items.leadIngot);
-        OreDictionary.registerOre("nickelIngot", items.nickelIngot);
-        OreDictionary.registerOre("tinIngot", items.tinIngot);
-        OreDictionary.registerOre("zincIngot", items.zincIngot);
+        OreDictionary.registerOre("ingotBrass", items.brassIngot);
+        OreDictionary.registerOre("ingotCopper", items.copperIngot);
+        OreDictionary.registerOre("ingotLead", items.leadIngot);
+        OreDictionary.registerOre("ingotNickel", items.nickelIngot);
+        OreDictionary.registerOre("ingotTin", items.tinIngot);
+        OreDictionary.registerOre("ingotZinc", items.zincIngot);
     }
     public static void register()
     {

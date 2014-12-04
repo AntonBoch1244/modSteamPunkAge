@@ -10,8 +10,7 @@ import net.minecraft.tileentity.TileEntity;
 
 public class repairingStation extends Block
 {
-    public static String l10nName;
-    public String name = "repairingStation";
+    public static String name = "repairingStation";
     public repairingStation()
     {
         super(Material.anvil);
